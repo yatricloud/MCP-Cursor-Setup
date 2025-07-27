@@ -1,0 +1,75 @@
+//macos
+{
+    "mcpServers": {
+      "supabase": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@supabase/mcp-server-supabase@latest",
+          "--read-only", //comment this out if you want to write to the database
+          "--project-ref=<project-ref>" //replace with your project ref
+        ],
+        "env": {
+          "SUPABASE_ACCESS_TOKEN": "<personal-access-token>" //replace with your personal access token
+        }
+      }
+    }
+  }
+
+//windows
+{
+    "mcpServers": {
+      "supabase": {
+        "command": "cmd",
+        "args": [
+          "/c",
+          "npx",
+          "-y",
+          "@supabase/mcp-server-supabase@latest",
+          "--read-only", //comment this out if you want to write to the database
+          "--project-ref=<project-ref>" //replace with your project ref
+        ],
+        "env": {
+          "SUPABASE_ACCESS_TOKEN": "<personal-access-token>" //replace with your personal access token
+        }
+      }
+    }
+  }
+
+  //Windows (WSL)
+  {
+    "mcpServers": {
+      "supabase": {
+        "command": "wsl",
+        "args": [
+          "npx",
+          "-y",
+          "@supabase/mcp-server-supabase@latest",
+          "--read-only", //comment this out if you want to write to the database
+          "--project-ref=<project-ref>" //replace with your project ref
+        ],
+        "env": {
+          "SUPABASE_ACCESS_TOKEN": "<personal-access-token>" //replace with your personal access token
+        }
+      }
+    }   
+  }
+
+  //linux
+  {
+    "mcpServers": {
+      "supabase": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@supabase/mcp-server-supabase@latest",
+          "--read-only", //comment this out if you want to write to the database
+          "--project-ref=<project-ref>" //replace with your project ref
+        ],
+        "env": {
+          "SUPABASE_ACCESS_TOKEN": "<personal-access-token>" //replace with your personal access token
+        }
+      }
+    }
+  }
+  

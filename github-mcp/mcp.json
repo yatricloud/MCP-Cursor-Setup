@@ -1,0 +1,14 @@
+{
+    "mcpServers": {
+      "github": {
+        "command": "прх",
+        "args": [
+          "-y",
+          "@modecontextprotocol/server-github"
+        ],
+        "env": {
+          "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR-API-KEY" //replace with your github personal access token
+        }
+      }
+    }
+  }
