@@ -1,4 +1,7 @@
+
 # n8n MCP Server Setup Guide
+
+👉 [Start n8n for free and create your account now](https://n8n.partnerlinks.io/7l53qdxhp11s)
 
 This guide will help you set up the n8n MCP server.
 
