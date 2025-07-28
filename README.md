@@ -24,3 +24,10 @@ Each folder contains its own setup guide and configuration files. For detailed i
 - `n8n-mcp/` — n8n MCP server setup
 
 Each folder contains a `mcp.json` configuration file and a dedicated setup guide.
+
+## Join the Yatri Community
+
+- **AI Yatri Community (WhatsApp Group):** https://chat.whatsapp.com/FPgpa7E8WQyA75ITKzXxI0
+- **WhatsApp Channel:** https://whatsapp.com/channel/0029VakdAHIFHWq60yHA1Q0s
+- **Discord n8n Yatri Channel:** https://discord.gg/T95RajaFxf
+- **Exclusive Yatri Community:** https://community.yatricloud.com
